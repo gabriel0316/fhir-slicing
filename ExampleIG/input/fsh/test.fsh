@@ -40,10 +40,16 @@ InstanceOf: ExampleComposition
 * author.reference = "Patient/PatientExample"
 * title = "Test"
 * section[Section1][+].code = ExampleCompositionSectionsCS#Section1
+* section[Section1][=].text.status = #generated
+* section[Section1][=].text.div = "test"
  
 * section[Section2][+].code = ExampleCompositionSectionsCS#Section2
+* section[Section2][=].text.status = #generated
+* section[Section2][=].text.div = "test"
  
 * section[Section3][+].code = ExampleCompositionSectionsCS#Section3
+* section[Section3][=].text.status = #generated
+* section[Section3][=].text.div = "test"
  
  
  
@@ -55,10 +61,16 @@ InstanceOf: ExampleComposition
 * author.reference = "Patient/PatientExample"
 * title = "Test"
 * section[Section1][+].code.coding = ExampleCompositionSectionsCS#Section1
+* section[Section1][=].text.status = #generated
+* section[Section1][=].text.div = "test"
  
 * section[Section2][+].code.coding = ExampleCompositionSectionsCS#Section2
+* section[Section2][=].text.status = #generated
+* section[Section2][=].text.div = "test"
  
 * section[Section3][+].code.coding = ExampleCompositionSectionsCS#Section3
+* section[Section3][=].text.status = #generated
+* section[Section3][=].text.div = "test"
  
  
  
@@ -72,9 +84,15 @@ InstanceOf: ExampleComposition
 * title = "Test"
 * section[Section1][+].code.coding.system = Canonical(ExampleCompositionSectionsCS)
 * section[Section1][=].code.coding.code = #Section1
+* section[Section1][=].text.status = #generated
+* section[Section1][=].text.div = "test"
  
 * section[Section2][+].code.coding.system = Canonical(ExampleCompositionSectionsCS)
 * section[Section2][=].code.coding.code = #Section2
+* section[Section2][=].text.status = #generated
+* section[Section2][=].text.div = "test"
  
 * section[Section3][+].code.coding.system = Canonical(ExampleCompositionSectionsCS)
 * section[Section3][=].code.coding.code = #Section3
+* section[Section3][=].text.status = #generated
+* section[Section3][=].text.div = "test"
