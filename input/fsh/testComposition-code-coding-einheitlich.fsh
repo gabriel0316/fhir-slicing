@@ -27,6 +27,7 @@ InstanceOf: ExampleComposition5
 * author.reference = "Patient/PatientExample"
 * title = "Test"
 * section[Section1][+].code = ExampleCompositionSectionsCS#Section1
+* section[Section1][=].code.coding.display = "Test"
 * section[Section1][=].text.status = #generated
 * section[Section1][=].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">test</div>"
  
@@ -48,6 +49,7 @@ InstanceOf: ExampleComposition5
 * author.reference = "Patient/PatientExample"
 * title = "Test"
 * section[Section1].code.coding = ExampleCompositionSectionsCS#Section1
+* section[Section1].code.coding.display = "Test"
 * section[Section1].text.status = #generated
 * section[Section1].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">test</div>"
  
@@ -71,6 +73,7 @@ InstanceOf: ExampleComposition5
 * title = "Test"
 * section[Section1][+].code.coding.system = Canonical(ExampleCompositionSectionsCS)
 * section[Section1][=].code.coding.code = #Section1
+* section[Section1][=].code.coding.display = "Test"
 * section[Section1][=].text.status = #generated
 * section[Section1][=].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">test</div>"
  
