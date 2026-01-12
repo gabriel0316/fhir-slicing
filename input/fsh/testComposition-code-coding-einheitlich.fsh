@@ -5,7 +5,7 @@ Title: "Example Composition"
  
 * section.code from ExampleCompositionSectionsVS
 * section ^slicing.discriminator[+].type = #value
-* section ^slicing.discriminator[=].path = "code"
+* section ^slicing.discriminator[=].path = "code.coding"
 * section ^slicing.rules = #open
 
 //code -> nichts
