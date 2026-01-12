@@ -1,0 +1,29 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "ExampleCompositionSectionsVS",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet ExampleCompositionSectionsVS</b></p><a name=\"ExampleCompositionSectionsVS\"> </a><a name=\"hcExampleCompositionSectionsVS\"> </a><ul><li>Include all codes defined in <a href=\"CodeSystem-ExampleCompositionSectionsCS.html\"><code>http://example.org/CodeSystem/ExampleCompositionSectionsCS</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version &#x1F4E6;0.1.0</span></li></ul></div>"
+  },
+  "url" : "http://example.org/ValueSet/ExampleCompositionSectionsVS",
+  "version" : "0.1.0",
+  "name" : "ExampleCompositionSectionsVS",
+  "title" : "Composition Sections",
+  "status" : "draft",
+  "experimental" : true,
+  "date" : "2025-12-15T11:10:46+01:00",
+  "publisher" : "Example Publisher",
+  "contact" : [{
+    "name" : "Example Publisher",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://example.org/example-publisher"
+    }]
+  }],
+  "description" : "Composition Sections",
+  "compose" : {
+    "include" : [{
+      "system" : "http://example.org/CodeSystem/ExampleCompositionSectionsCS"
+    }]
+  }
+}

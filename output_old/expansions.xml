@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Bundle xmlns="http://hl7.org/fhir">
+  <id value="d069961c-a3ec-4d5e-ae5f-4a7dcfb29bcc"/>
+  <meta>
+    <lastUpdated value="2025-12-15T11:10:46.786+01:00"/>
+  </meta>
+  <type value="collection"/>
+  <entry>
+    <fullUrl value="http://example.org/ValueSet/ExampleCompositionSectionsVS"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p class="res-header-id"/>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
+              <a href="CodeSystem-ExampleCompositionSectionsCS.html">codesystem Composition Sections v0.1.0 (CodeSystem)</a>
+              <span class="copy-text-inline">
+                <button data-clipboard-text="http://example.org/CodeSystem/ExampleCompositionSectionsCS|0.1.0" title="Click to Copy URL" class="btn-copy"> </button>
+              </span>
+            </p>
+            <p>This value set contains 3 concepts</p>
+            <table class="codes" data-fhir="generated">
+              <tr>
+                <td>
+                  <b>System</b>
+                </td>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display (en)</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+                <td>
+                  <b>JSON</b>
+                </td>
+                <td>
+                  <b>XML</b>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://example.org/CodeSystem/ExampleCompositionSectionsCS-Section1"> </a>
+                  <code>http://example.org/CodeSystem/ExampleCompositionSectionsCS</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-ExampleCompositionSectionsCS.html#ExampleCompositionSectionsCS-Section1">Section1</a>
+                </td>
+                <td>Section 1</td>
+                <td/>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://example.org/CodeSystem/ExampleCompositionSectionsCS&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;Section1&quot;, &quot;display&quot;: &quot;Section 1&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://example.org/CodeSystem/ExampleCompositionSectionsCS&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;Section1&quot;&gt;&lt;display value=&quot;Section 1&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://example.org/CodeSystem/ExampleCompositionSectionsCS-Section2"> </a>
+                  <code>http://example.org/CodeSystem/ExampleCompositionSectionsCS</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-ExampleCompositionSectionsCS.html#ExampleCompositionSectionsCS-Section2">Section2</a>
+                </td>
+                <td>Section 2</td>
+                <td/>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://example.org/CodeSystem/ExampleCompositionSectionsCS&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;Section2&quot;, &quot;display&quot;: &quot;Section 2&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://example.org/CodeSystem/ExampleCompositionSectionsCS&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;Section2&quot;&gt;&lt;display value=&quot;Section 2&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://example.org/CodeSystem/ExampleCompositionSectionsCS-Section3"> </a>
+                  <code>http://example.org/CodeSystem/ExampleCompositionSectionsCS</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-ExampleCompositionSectionsCS.html#ExampleCompositionSectionsCS-Section3">Section3</a>
+                </td>
+                <td>Section 3</td>
+                <td/>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://example.org/CodeSystem/ExampleCompositionSectionsCS&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;Section3&quot;, &quot;display&quot;: &quot;Section 3&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://example.org/CodeSystem/ExampleCompositionSectionsCS&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;Section3&quot;&gt;&lt;display value=&quot;Section 3&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://example.org/ValueSet/ExampleCompositionSectionsVS"/>
+        <version value="0.1.0"/>
+        <name value="ExampleCompositionSectionsVS"/>
+        <title value="Composition Sections"/>
+        <status value="draft"/>
+        <experimental value="true"/>
+        <date value="2025-12-15T11:10:46+01:00"/>
+        <expansion>
+          <identifier value="urn:uuid:2f393c98-19b0-4e04-892a-fe8e6b4bbb52"/>
+          <timestamp value="2025-12-15T11:11:48+01:00"/>
+          <total value="3"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="en"/>
+          </parameter>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="http://example.org/CodeSystem/ExampleCompositionSectionsCS|0.1.0"/>
+          </parameter>
+          <contains>
+            <system value="http://example.org/CodeSystem/ExampleCompositionSectionsCS"/>
+            <code value="Section1"/>
+            <display value="Section 1"/>
+          </contains>
+          <contains>
+            <system value="http://example.org/CodeSystem/ExampleCompositionSectionsCS"/>
+            <code value="Section2"/>
+            <display value="Section 2"/>
+          </contains>
+          <contains>
+            <system value="http://example.org/CodeSystem/ExampleCompositionSectionsCS"/>
+            <code value="Section3"/>
+            <display value="Section 3"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+</Bundle>

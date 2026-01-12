@@ -1,0 +1,59 @@
+{
+  "resourceType" : "Composition",
+  "id" : "ExampleComposition2",
+  "meta" : {
+    "profile" : ["http://example.org/StructureDefinition/ExampleComposition"]
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Composition ExampleComposition2</b></p><a name=\"ExampleComposition2\"> </a><a name=\"hcExampleComposition2\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-ExampleComposition.html\">Example Composition</a></p></div><p><b>status</b>: Final</p><p><b>type</b>: <span title=\"Codes:{http://loinc.org 60591-5}\">Patient summary Document</span></p><p><b>date</b>: 2025-09-09</p><p><b>author</b>: <a href=\"Patient-PatientExample.html\">James Pond  (no stated gender), DoB Unknown</a></p><p><b>title</b>: Test</p></div>"
+  },
+  "status" : "final",
+  "type" : {
+    "coding" : [{
+      "system" : "http://loinc.org",
+      "code" : "60591-5"
+    }]
+  },
+  "date" : "2025-09-09",
+  "author" : [{
+    "reference" : "Patient/PatientExample"
+  }],
+  "title" : "Test",
+  "section" : [{
+    "code" : {
+      "coding" : [{
+        "system" : "http://example.org/CodeSystem/ExampleCompositionSectionsCS",
+        "code" : "Section1"
+      }]
+    },
+    "text" : {
+      "status" : "generated",
+      "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\">test</div>"
+    }
+  },
+  {
+    "code" : {
+      "coding" : [{
+        "system" : "http://example.org/CodeSystem/ExampleCompositionSectionsCS",
+        "code" : "Section2"
+      }]
+    },
+    "text" : {
+      "status" : "generated",
+      "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\">test</div>"
+    }
+  },
+  {
+    "code" : {
+      "coding" : [{
+        "system" : "http://example.org/CodeSystem/ExampleCompositionSectionsCS",
+        "code" : "Section3"
+      }]
+    },
+    "text" : {
+      "status" : "generated",
+      "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\">test</div>"
+    }
+  }]
+}

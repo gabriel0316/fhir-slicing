@@ -1,0 +1,119 @@
+ExampleIG : Validation Results
+=========================================
+
+err = 18, warn = 12, info = 9
+$--
+Generated $--. FHIR version $-- for fhir.example#$-- (canonical = http://example.org)
+ Build Errors : 53 / 7 / 0
+ C:\DND_GIT_Repos\test\ExampleIG\fsh-generated\resources\CodeSystem-ExampleCompositionSectionsCS : 0 / 0 / 1
+ C:\DND_GIT_Repos\test\ExampleIG\fsh-generated\resources\Composition-ExampleComposition1 : 6 / 0 / 2
+ C:\DND_GIT_Repos\test\ExampleIG\fsh-generated\resources\Composition-ExampleComposition2 : 6 / 0 / 2
+ C:\DND_GIT_Repos\test\ExampleIG\fsh-generated\resources\Composition-ExampleComposition3 : 6 / 0 / 2
+ C:\DND_GIT_Repos\test\ExampleIG\fsh-generated\resources\ImplementationGuide-fhir.example : 0 / 0 / 1
+ C:\DND_GIT_Repos\test\ExampleIG\fsh-generated\resources\Patient-PatientExample : 0 / 0 / 1
+ C:\DND_GIT_Repos\test\ExampleIG\fsh-generated\resources\StructureDefinition-ExampleComposition : 0 / 5 / 7
+ C:\DND_GIT_Repos\test\ExampleIG\fsh-generated\resources\StructureDefinition-MyPatient : 0 / 0 / 1
+ C:\DND_GIT_Repos\test\ExampleIG\fsh-generated\resources\ValueSet-ExampleCompositionSectionsVS : 0 / 0 / 1
+</table>
+== n/a ==
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Composition/ExampleComposition1.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Composition/ExampleComposition2.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Composition/ExampleComposition3.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+ERROR: CodeSystem-ExampleCompositionSectionsCS-testing.html#/html/body/div/div/div/p/a at Line 217, column 28: The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved
+ERROR: CodeSystem-ExampleCompositionSectionsCS.change.history.html#/html/body/div/div/div/p/a at Line 186, column 28: The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved
+ERROR: CodeSystem-ExampleCompositionSectionsCS.html#/html/body/div/div/div/p/a at Line 251, column 28: The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved
+ERROR: CodeSystem-ExampleCompositionSectionsCS.json.html#/html/body/div/div/div/p/a at Line 254, column 28: The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved
+ERROR: CodeSystem-ExampleCompositionSectionsCS.ttl.html#/html/body/div/div/div/p/a at Line 259, column 28: The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved
+ERROR: CodeSystem-ExampleCompositionSectionsCS.xml.html#/html/body/div/div/div/p/a at Line 248, column 28: The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved
+ERROR: Composition-ExampleComposition1.change.history.html#/html/body/div/div/div/p/a at Line 186, column 28: The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved
+ERROR: Composition-ExampleComposition1.html#/html/body/div/div/div/p/a at Line 195, column 28: The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved
+ERROR: Composition-ExampleComposition1.json.html#/html/body/div/div/div/p/a at Line 267, column 28: The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved
+ERROR: Composition-ExampleComposition1.ttl.html#/html/body/div/div/div/p/a at Line 265, column 28: The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved
+ERROR: Composition-ExampleComposition1.xml.html#/html/body/div/div/div/p/a at Line 257, column 28: The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved
+ERROR: Composition-ExampleComposition2.change.history.html#/html/body/div/div/div/p/a at Line 186, column 28: The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved
+ERROR: Composition-ExampleComposition2.html#/html/body/div/div/div/p/a at Line 195, column 28: The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved
+ERROR: Composition-ExampleComposition2.json.html#/html/body/div/div/div/p/a at Line 267, column 28: The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved
+ERROR: Composition-ExampleComposition2.ttl.html#/html/body/div/div/div/p/a at Line 265, column 28: The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved
+ERROR: Composition-ExampleComposition2.xml.html#/html/body/div/div/div/p/a at Line 257, column 28: The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved
+ERROR: Composition-ExampleComposition3.change.history.html#/html/body/div/div/div/p/a at Line 186, column 28: The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved
+ERROR: Composition-ExampleComposition3.html#/html/body/div/div/div/p/a at Line 195, column 28: The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved
+ERROR: Composition-ExampleComposition3.json.html#/html/body/div/div/div/p/a at Line 267, column 28: The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved
+ERROR: Composition-ExampleComposition3.ttl.html#/html/body/div/div/div/p/a at Line 265, column 28: The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved
+ERROR: Composition-ExampleComposition3.xml.html#/html/body/div/div/div/p/a at Line 257, column 28: The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved
+ERROR: Patient-PatientExample.change.history.html#/html/body/div/div/div/p/a at Line 186, column 28: The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved
+ERROR: Patient-PatientExample.html#/html/body/div/div/div/p/a at Line 195, column 28: The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved
+ERROR: Patient-PatientExample.json.html#/html/body/div/div/div/p/a at Line 215, column 28: The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved
+ERROR: Patient-PatientExample.ttl.html#/html/body/div/div/div/p/a at Line 222, column 28: The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved
+ERROR: Patient-PatientExample.xml.html#/html/body/div/div/div/p/a at Line 209, column 28: The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved
+ERROR: StructureDefinition-ExampleComposition-definitions.html#/html/body/div/div/div/p/a at Line 888, column 28: The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved
+ERROR: StructureDefinition-ExampleComposition-examples.html#/html/body/div/div/div/p/a at Line 266, column 28: The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved
+ERROR: StructureDefinition-ExampleComposition-mappings.html#/html/body/div/div/div/p/a at Line 1491, column 28: The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved
+ERROR: StructureDefinition-ExampleComposition-testing.html#/html/body/div/div/div/p/a at Line 250, column 28: The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved
+ERROR: StructureDefinition-ExampleComposition.html#/html/body/div/div/div/p/a at Line 4075, column 28: The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved
+ERROR: StructureDefinition-ExampleComposition.profile.history.html#/html/body/div/div/div/p/a at Line 232, column 28: The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved
+ERROR: StructureDefinition-ExampleComposition.profile.json.html#/html/body/div/div/div/p/a at Line 5803, column 28: The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved
+ERROR: StructureDefinition-ExampleComposition.profile.ttl.html#/html/body/div/div/div/p/a at Line 4652, column 28: The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved
+ERROR: StructureDefinition-ExampleComposition.profile.xml.html#/html/body/div/div/div/p/a at Line 5393, column 28: The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved
+ERROR: StructureDefinition-MyPatient-definitions.html#/html/body/div/div/div/p/a at Line 542, column 28: The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved
+ERROR: StructureDefinition-MyPatient-examples.html#/html/body/div/div/div/p/a at Line 254, column 28: The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved
+ERROR: StructureDefinition-MyPatient-mappings.html#/html/body/div/div/div/p/a at Line 756, column 28: The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved
+ERROR: StructureDefinition-MyPatient-testing.html#/html/body/div/div/div/p/a at Line 250, column 28: The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved
+ERROR: StructureDefinition-MyPatient.html#/html/body/div/div/div/p/a at Line 2071, column 28: The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved
+ERROR: StructureDefinition-MyPatient.profile.history.html#/html/body/div/div/div/p/a at Line 232, column 28: The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved
+ERROR: StructureDefinition-MyPatient.profile.json.html#/html/body/div/div/div/p/a at Line 2462, column 28: The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved
+ERROR: StructureDefinition-MyPatient.profile.ttl.html#/html/body/div/div/div/p/a at Line 2017, column 28: The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved
+ERROR: StructureDefinition-MyPatient.profile.xml.html#/html/body/div/div/div/p/a at Line 2307, column 28: The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved
+ERROR: ValueSet-ExampleCompositionSectionsVS-testing.html#/html/body/div/div/div/p/a at Line 217, column 28: The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved
+ERROR: ValueSet-ExampleCompositionSectionsVS.change.history.html#/html/body/div/div/div/p/a at Line 186, column 28: The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved
+ERROR: ValueSet-ExampleCompositionSectionsVS.html#/html/body/div/div/div/p/a at Line 286, column 28: The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved
+ERROR: ValueSet-ExampleCompositionSectionsVS.json.html#/html/body/div/div/div/p/a at Line 244, column 28: The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved
+ERROR: ValueSet-ExampleCompositionSectionsVS.ttl.html#/html/body/div/div/div/p/a at Line 252, column 28: The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved
+ERROR: ValueSet-ExampleCompositionSectionsVS.xml.html#/html/body/div/div/div/p/a at Line 239, column 28: The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved
+ERROR: artifacts.html#/html/body/div/div/div/p/a at Line 270, column 28: The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved
+ERROR: index.html#/html/body/div/div/div/p/a at Line 200, column 28: The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved
+ERROR: toc.html#/html/body/div/div/div/p/a at Line 142, column 28: The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved
+WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
+WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml, dependency-table-nontech.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
+== fsh-generated\resources\CodeSystem-ExampleCompositionSectionsCS.json ==
+== fsh-generated\resources\Composition-ExampleComposition1.json ==
+ERROR: Composition/ExampleComposition1: Composition.section[0]: Slicing kann nicht ausgewertet werden: Konnte nicht mit dem Diskriminator (1) für Slice code.coding in Profil Composition.section:Section1 übereinstimmen - der Diskriminator http://example.org/StructureDefinition/ExampleComposition|0.1.0 hat keinen fixed Value, kein Binding oder existence assertions
+ERROR: Composition/ExampleComposition1: Composition.section[1]: Slicing kann nicht ausgewertet werden: Konnte nicht mit dem Diskriminator (1) für Slice code.coding in Profil Composition.section:Section1 übereinstimmen - der Diskriminator http://example.org/StructureDefinition/ExampleComposition|0.1.0 hat keinen fixed Value, kein Binding oder existence assertions
+ERROR: Composition/ExampleComposition1: Composition.section[2]: Slicing kann nicht ausgewertet werden: Konnte nicht mit dem Diskriminator (1) für Slice code.coding in Profil Composition.section:Section1 übereinstimmen - der Diskriminator http://example.org/StructureDefinition/ExampleComposition|0.1.0 hat keinen fixed Value, kein Binding oder existence assertions
+ERROR: Composition/ExampleComposition1: Composition.section[0]: Slicing kann nicht ausgewertet werden: Konnte nicht mit dem Diskriminator (1) für Slice code.coding in Profil Composition.section:Section2 übereinstimmen - der Diskriminator http://example.org/StructureDefinition/ExampleComposition|0.1.0 hat keinen fixed Value, kein Binding oder existence assertions
+ERROR: Composition/ExampleComposition1: Composition.section[1]: Slicing kann nicht ausgewertet werden: Konnte nicht mit dem Diskriminator (1) für Slice code.coding in Profil Composition.section:Section2 übereinstimmen - der Diskriminator http://example.org/StructureDefinition/ExampleComposition|0.1.0 hat keinen fixed Value, kein Binding oder existence assertions
+ERROR: Composition/ExampleComposition1: Composition.section[2]: Slicing kann nicht ausgewertet werden: Konnte nicht mit dem Diskriminator (1) für Slice code.coding in Profil Composition.section:Section2 übereinstimmen - der Diskriminator http://example.org/StructureDefinition/ExampleComposition|0.1.0 hat keinen fixed Value, kein Binding oder existence assertions
+INFORMATION: Composition/ExampleComposition1: Composition: http://example.org/StructureDefinition/ExampleComposition|0.1.0: Kann das erforderliche Minimum (http://example.org/StructureDefinition/ExampleComposition|0.1.0) aufgrund fehlender Slicing-Validierung nicht überprüfen
+== fsh-generated\resources\Composition-ExampleComposition2.json ==
+ERROR: Composition/ExampleComposition2: Composition.section[0]: Slicing kann nicht ausgewertet werden: Konnte nicht mit dem Diskriminator (1) für Slice code.coding in Profil Composition.section:Section1 übereinstimmen - der Diskriminator http://example.org/StructureDefinition/ExampleComposition|0.1.0 hat keinen fixed Value, kein Binding oder existence assertions
+ERROR: Composition/ExampleComposition2: Composition.section[1]: Slicing kann nicht ausgewertet werden: Konnte nicht mit dem Diskriminator (1) für Slice code.coding in Profil Composition.section:Section1 übereinstimmen - der Diskriminator http://example.org/StructureDefinition/ExampleComposition|0.1.0 hat keinen fixed Value, kein Binding oder existence assertions
+ERROR: Composition/ExampleComposition2: Composition.section[2]: Slicing kann nicht ausgewertet werden: Konnte nicht mit dem Diskriminator (1) für Slice code.coding in Profil Composition.section:Section1 übereinstimmen - der Diskriminator http://example.org/StructureDefinition/ExampleComposition|0.1.0 hat keinen fixed Value, kein Binding oder existence assertions
+ERROR: Composition/ExampleComposition2: Composition.section[0]: Slicing kann nicht ausgewertet werden: Konnte nicht mit dem Diskriminator (1) für Slice code.coding in Profil Composition.section:Section2 übereinstimmen - der Diskriminator http://example.org/StructureDefinition/ExampleComposition|0.1.0 hat keinen fixed Value, kein Binding oder existence assertions
+ERROR: Composition/ExampleComposition2: Composition.section[1]: Slicing kann nicht ausgewertet werden: Konnte nicht mit dem Diskriminator (1) für Slice code.coding in Profil Composition.section:Section2 übereinstimmen - der Diskriminator http://example.org/StructureDefinition/ExampleComposition|0.1.0 hat keinen fixed Value, kein Binding oder existence assertions
+ERROR: Composition/ExampleComposition2: Composition.section[2]: Slicing kann nicht ausgewertet werden: Konnte nicht mit dem Diskriminator (1) für Slice code.coding in Profil Composition.section:Section2 übereinstimmen - der Diskriminator http://example.org/StructureDefinition/ExampleComposition|0.1.0 hat keinen fixed Value, kein Binding oder existence assertions
+INFORMATION: Composition/ExampleComposition2: Composition: http://example.org/StructureDefinition/ExampleComposition|0.1.0: Kann das erforderliche Minimum (http://example.org/StructureDefinition/ExampleComposition|0.1.0) aufgrund fehlender Slicing-Validierung nicht überprüfen
+== fsh-generated\resources\Composition-ExampleComposition3.json ==
+ERROR: Composition/ExampleComposition3: Composition.section[0]: Slicing kann nicht ausgewertet werden: Konnte nicht mit dem Diskriminator (1) für Slice code.coding in Profil Composition.section:Section1 übereinstimmen - der Diskriminator http://example.org/StructureDefinition/ExampleComposition|0.1.0 hat keinen fixed Value, kein Binding oder existence assertions
+ERROR: Composition/ExampleComposition3: Composition.section[1]: Slicing kann nicht ausgewertet werden: Konnte nicht mit dem Diskriminator (1) für Slice code.coding in Profil Composition.section:Section1 übereinstimmen - der Diskriminator http://example.org/StructureDefinition/ExampleComposition|0.1.0 hat keinen fixed Value, kein Binding oder existence assertions
+ERROR: Composition/ExampleComposition3: Composition.section[2]: Slicing kann nicht ausgewertet werden: Konnte nicht mit dem Diskriminator (1) für Slice code.coding in Profil Composition.section:Section1 übereinstimmen - der Diskriminator http://example.org/StructureDefinition/ExampleComposition|0.1.0 hat keinen fixed Value, kein Binding oder existence assertions
+ERROR: Composition/ExampleComposition3: Composition.section[0]: Slicing kann nicht ausgewertet werden: Konnte nicht mit dem Diskriminator (1) für Slice code.coding in Profil Composition.section:Section2 übereinstimmen - der Diskriminator http://example.org/StructureDefinition/ExampleComposition|0.1.0 hat keinen fixed Value, kein Binding oder existence assertions
+ERROR: Composition/ExampleComposition3: Composition.section[1]: Slicing kann nicht ausgewertet werden: Konnte nicht mit dem Diskriminator (1) für Slice code.coding in Profil Composition.section:Section2 übereinstimmen - der Diskriminator http://example.org/StructureDefinition/ExampleComposition|0.1.0 hat keinen fixed Value, kein Binding oder existence assertions
+ERROR: Composition/ExampleComposition3: Composition.section[2]: Slicing kann nicht ausgewertet werden: Konnte nicht mit dem Diskriminator (1) für Slice code.coding in Profil Composition.section:Section2 übereinstimmen - der Diskriminator http://example.org/StructureDefinition/ExampleComposition|0.1.0 hat keinen fixed Value, kein Binding oder existence assertions
+INFORMATION: Composition/ExampleComposition3: Composition: http://example.org/StructureDefinition/ExampleComposition|0.1.0: Kann das erforderliche Minimum (http://example.org/StructureDefinition/ExampleComposition|0.1.0) aufgrund fehlender Slicing-Validierung nicht überprüfen
+== fsh-generated\resources\ImplementationGuide-fhir.example.json ==
+== fsh-generated\resources\Patient-PatientExample.json ==
+== fsh-generated\resources\StructureDefinition-ExampleComposition.json ==
+INFORMATION: StructureDefinition/ExampleComposition: StructureDefinition.snapshot.element[4].binding.extension[0]: The extension http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet|5.2.0 is deprecated
+INFORMATION: StructureDefinition/ExampleComposition: StructureDefinition.snapshot.element[59].pattern.ofType(CodeableConcept): Reference to experimental CodeSystem http://example.org/CodeSystem/ExampleCompositionSectionsCS|0.1.0
+INFORMATION: StructureDefinition/ExampleComposition: StructureDefinition.snapshot.element[101].pattern.ofType(Coding): Reference to experimental CodeSystem http://example.org/CodeSystem/ExampleCompositionSectionsCS|0.1.0
+INFORMATION: StructureDefinition/ExampleComposition: StructureDefinition.differential.element[4].pattern.ofType(CodeableConcept): Reference to experimental CodeSystem http://example.org/CodeSystem/ExampleCompositionSectionsCS|0.1.0
+INFORMATION: StructureDefinition/ExampleComposition: StructureDefinition.differential.element[9].pattern.ofType(Coding): Reference to experimental CodeSystem http://example.org/CodeSystem/ExampleCompositionSectionsCS|0.1.0
+WARNING: StructureDefinition/ExampleComposition: StructureDefinition.differential.element[2].binding: The definition for the element 'Composition.section.code' binds to the value set 'http://example.org/ValueSet/ExampleCompositionSectionsVS' which is experimental, but this structure is not labeled as experimental
+WARNING: StructureDefinition/ExampleComposition: StructureDefinition.snapshot.element[45].binding: The definition for the element 'Composition.section.code' binds to the value set 'http://example.org/ValueSet/ExampleCompositionSectionsVS' which is experimental, but this structure is not labeled as experimental
+WARNING: StructureDefinition/ExampleComposition: StructureDefinition.snapshot.element[59].binding: The definition for the element 'Composition.section.code' binds to the value set 'http://example.org/ValueSet/ExampleCompositionSectionsVS' which is experimental, but this structure is not labeled as experimental
+WARNING: StructureDefinition/ExampleComposition: StructureDefinition.snapshot.element[73].binding: The definition for the element 'Composition.section.code' binds to the value set 'http://example.org/ValueSet/ExampleCompositionSectionsVS' which is experimental, but this structure is not labeled as experimental
+WARNING: StructureDefinition/ExampleComposition: StructureDefinition.snapshot.element[98].binding: The definition for the element 'Composition.section.code' binds to the value set 'http://example.org/ValueSet/ExampleCompositionSectionsVS' which is experimental, but this structure is not labeled as experimental
+INFORMATION: StructureDefinition/ExampleComposition: StructureDefinition.snapshot.element[101].pattern.ofType(Coding): Das sich wiederholende Element hat ein pattern. Die pattern gilt für alle Wiederholungen (dies war nicht allen Benutzern klar)
+== fsh-generated\resources\StructureDefinition-MyPatient.json ==
+== fsh-generated\resources\ValueSet-ExampleCompositionSectionsVS.json ==

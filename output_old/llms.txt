@@ -1,0 +1,32 @@
+# fhir.example#0.1.0: null
+
+## Pages
+
+* [Home](index.md)
+* [Artifacts Summary](artifacts.md)
+
+## Resources
+
+### CodeSystems
+
+* [Composition Sections](CodeSystem-ExampleCompositionSectionsCS.md)
+
+### ValueSets
+
+* [Composition Sections](ValueSet-ExampleCompositionSectionsVS.md)
+
+### Resource Profiles
+
+* [Example Composition](StructureDefinition-ExampleComposition.md)
+* [MyPatient](StructureDefinition-MyPatient.md)
+
+### ImplementationGuides
+
+* [ExampleIG](index.md)
+
+### Examples
+
+* [Test (Composition)](Composition-ExampleComposition1.md)
+* [Test (Composition)](Composition-ExampleComposition2.md)
+* [Test (Composition)](Composition-ExampleComposition3.md)
+* [PatientExample (Patient)](Patient-PatientExample.md)

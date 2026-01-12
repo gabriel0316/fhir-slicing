@@ -1,0 +1,12 @@
+{
+  "codeSystems" : [
+    {
+      "url" : "http://example.org/CodeSystem/ExampleCompositionSectionsCS",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "ExampleCompositionSectionsCS",
+      "title" : "Composition Sections",
+      "description" : "Composition Sections"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://example.org/CodeSystem/ExampleCompositionSectionsCS> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "ExampleCompositionSectionsCS"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem ExampleCompositionSectionsCS</b></p><a name=\"ExampleCompositionSectionsCS\"> </a><a name=\"hcExampleCompositionSectionsCS\"> </a><p>This case-sensitive code system <code>http://example.org/CodeSystem/ExampleCompositionSectionsCS</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">Section1<a name=\"ExampleCompositionSectionsCS-Section1\"> </a></td><td>Section 1</td></tr><tr><td style=\"white-space:nowrap\">Section2<a name=\"ExampleCompositionSectionsCS-Section2\"> </a></td><td>Section 2</td></tr><tr><td style=\"white-space:nowrap\">Section3<a name=\"ExampleCompositionSectionsCS-Section3\"> </a></td><td>Section 3</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:url [
+     fhir:v "http://example.org/CodeSystem/ExampleCompositionSectionsCS"^^xsd:anyURI ;
+     fhir:l <http://example.org/CodeSystem/ExampleCompositionSectionsCS>
+  ] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "ExampleCompositionSectionsCS"] ; # 
+  fhir:title [ fhir:v "Composition Sections"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:experimental [ fhir:v true] ; # 
+  fhir:date [ fhir:v "2025-12-15T11:10:46+01:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Example Publisher"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Example Publisher" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://example.org/example-publisher" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Composition Sections"] ; # 
+  fhir:caseSensitive [ fhir:v true] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "3"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "Section1" ] ;
+     fhir:display [ fhir:v "Section 1" ]
+  ] [
+     fhir:code [ fhir:v "Section2" ] ;
+     fhir:display [ fhir:v "Section 2" ]
+  ] [
+     fhir:code [ fhir:v "Section3" ] ;
+     fhir:display [ fhir:v "Section 3" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

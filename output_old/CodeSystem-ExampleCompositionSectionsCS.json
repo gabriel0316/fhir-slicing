@@ -1,0 +1,39 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "ExampleCompositionSectionsCS",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem ExampleCompositionSectionsCS</b></p><a name=\"ExampleCompositionSectionsCS\"> </a><a name=\"hcExampleCompositionSectionsCS\"> </a><p>This case-sensitive code system <code>http://example.org/CodeSystem/ExampleCompositionSectionsCS</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">Section1<a name=\"ExampleCompositionSectionsCS-Section1\"> </a></td><td>Section 1</td></tr><tr><td style=\"white-space:nowrap\">Section2<a name=\"ExampleCompositionSectionsCS-Section2\"> </a></td><td>Section 2</td></tr><tr><td style=\"white-space:nowrap\">Section3<a name=\"ExampleCompositionSectionsCS-Section3\"> </a></td><td>Section 3</td></tr></table></div>"
+  },
+  "url" : "http://example.org/CodeSystem/ExampleCompositionSectionsCS",
+  "version" : "0.1.0",
+  "name" : "ExampleCompositionSectionsCS",
+  "title" : "Composition Sections",
+  "status" : "draft",
+  "experimental" : true,
+  "date" : "2025-12-15T11:10:46+01:00",
+  "publisher" : "Example Publisher",
+  "contact" : [{
+    "name" : "Example Publisher",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://example.org/example-publisher"
+    }]
+  }],
+  "description" : "Composition Sections",
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 3,
+  "concept" : [{
+    "code" : "Section1",
+    "display" : "Section 1"
+  },
+  {
+    "code" : "Section2",
+    "display" : "Section 2"
+  },
+  {
+    "code" : "Section3",
+    "display" : "Section 3"
+  }]
+}
