@@ -1,5 +1,21 @@
 # Slicing
 
+> [!IMPORTANT]
+> The following applies to elements other than code as well as long as they are of type CodeableConcept
+> e.g. type.coding.code
+
+## tl;dr - IF YOU DO NOT WANT TO READ ALL THIS:
+
+- Exactly nicht verwenden -> führt zu beträchtlichen Einschränkungen (siehe Unten TODO: Link einfügen)
+
+Wenn im Slice zumindest 1 coding mit den angegeben Werten vorkommen soll:
+- discriminator path = "code" (CodeableConcept-Ebene)
+
+Wenn im Slice genau 1 coding mit den angegeben Werten vorkommen soll und kein anderes:
+- discriminator path = "code.coding" oder path = "code.coding.code" (Coding oder Code Ebene)
+- Kein Unterschied zwischen den beiden, wenn exactly nicht verwendet wird
+
+
 ## Grundregeln:
 
 ### Discriminator Path + Slice Ebene
@@ -69,6 +85,9 @@ Falsch:
 
 ## Auswirkungen unterschiedlicher discriminator paths:
 
+> [!CAUTION]
+> Unter der Bedingung, dass exactly nicht verwendet wird
+
 ### Path = "code" (CodeableConcept Ebene)
 Führt zu:
 ```
@@ -97,6 +116,10 @@ Führt zu:
 # Fixed Value vs. Required Pattern
 
 
+### Rendering im IG vs. StructureDefinition
+Der IG Publisher passt das Rendering an die Hierachie an. Ausschlaggebend vom constraint der obersten Ebene werden (fixed vs. required) der darunterliegenden angepasst. Es kann daher sein, dass in der StructureDefinition zwar requiredPattern angegeben ist - im Rendering aber ein "Fixed Value" angezeigt wird. 
+
+TODO -> Fixed Value (Complex), Fixed Value at least one of the following,...
 
 
 ### Fixed Values im FSH setzen
@@ -120,8 +143,17 @@ Ist auf der CodeableConcept Ebene ein constraint (required pattern) dann wird di
 ### Fixed Value auf Coding Ebene
 Wenn auf coding ebene ein fixed value (fsh: exactly) ist dann dürfen darunter nur die angegebenen elmente mit den fixed values vorkommen und keine anderen -> z.b. wenn system, code und display fixed sind dann müssen diese vorhanden sein und den values entsprechen und z.b. eine version oder extension ist nicht erlaubt
 
-
-
+### Required Pattern auf Coding Ebene
+Wenn auf Coding-Ebene ein required pattern (kein exactly) ist dann können zusätzlich zum fixed code+system auch displays, extensions etc. verwendet.
 
 # Empfehlungen
+
+# Nur genau eine Kombination aus Code+System erlaubt und keine andere
+Wenn keine zusätzlichen Code+system Kombinationen erlaubt sein sollen dann muss im discriminator path "code.coding" oder "code.coding.code" verwendet werden.
+Ob zusätzliche Felder im vom Slice definierten Coding erlaubt sind (display, extension,...) hängt davon ab, ob exactly auf code.coding verwendet wird oder nicht. Bei der Verwendung von exactly auf code.coding (Coding-Ebene) sind keine anderen Elemente erlaubt.
+
+# Zusätzliche Codings erlauben
+Wenn zusätzliche Code+System Kombinationen erlaubt sein sollen dann muss im discriminator path "code" (CodeableConcept-Ebene) verwendet werden.
+Ob zusätzliche Felder im vom Slice definierten Coding erlaubt sind (display, extension,...) hängt davon ab, ob exactly auf code (CodeableConcept-Ebene) verwendet wird oder nicht. Bei der Verwendung von exactly auf code (CodeableConcept-Ebene) sind keine anderen Elemente erlaubt.
+
 
