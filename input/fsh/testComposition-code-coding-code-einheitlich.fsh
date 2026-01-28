@@ -1,7 +1,7 @@
 Profile: ExampleComposition6
 Parent: Composition
-Description: "Example Composition"
-Title: "Example Composition"
+Description: "Example Composition 6"
+Title: "Example Composition 6"
  
 * section.code from ExampleCompositionSectionsVS
 * section ^slicing.discriminator[+].type = #value
@@ -13,7 +13,7 @@ Title: "Example Composition"
 //code.coding.code -> required pattern
 * section contains Section1 1..
 * section[Section1].code.coding.system = Canonical(ExampleCompositionSectionsCS)
-* section[Section1].code.coding.code = #Section1
+* section[Section1].code.coding.code = #Section1 (exactly)
 
 
 * section contains Section2 1..
@@ -34,6 +34,7 @@ InstanceOf: ExampleComposition6
 * author.reference = "Patient/PatientExample"
 * title = "Test"
 * section[Section1][+].code = ExampleCompositionSectionsCS#Section1
+* section[Section1][=].code.coding.display = "Test"
 * section[Section1][=].text.status = #generated
 * section[Section1][=].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">test</div>"
  
@@ -54,7 +55,9 @@ InstanceOf: ExampleComposition6
 * date = "2025-09-09"
 * author.reference = "Patient/PatientExample"
 * title = "Test"
-* section[Section1][+].code.coding = ExampleCompositionSectionsCS#Section1
+* section[Section1][+].code.coding[0] = ExampleCompositionSectionsCS#Section1
+* section[Section1][=].code.coding[=].display = "Test"
+* section[Section1][=].code.coding[+] = ExampleCompositionSectionsCS#Section1
 * section[Section1][=].text.status = #generated
 * section[Section1][=].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">test</div>"
  
@@ -62,7 +65,9 @@ InstanceOf: ExampleComposition6
 * section[Section2][=].text.status = #generated
 * section[Section2][=].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">test</div>"
  
-* section[Section3][+].code.coding = ExampleCompositionSectionsCS#Section3
+* section[Section3][+].code.coding[0] = ExampleCompositionSectionsCS#Section3
+* section[Section3][=].code.coding[+] = ExampleCompositionSectionsCS#Section3
+* section[Section3][=].code.coding[=].version = "1.3.4"
 * section[Section3][=].text.status = #generated
 * section[Section3][=].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">test</div>"
  
@@ -78,6 +83,7 @@ InstanceOf: ExampleComposition6
 * title = "Test"
 * section[Section1][+].code.coding.system = Canonical(ExampleCompositionSectionsCS)
 * section[Section1][=].code.coding.code = #Section1
+* section[Section1][=].code.coding.display = "Test"
 * section[Section1][=].text.status = #generated
 * section[Section1][=].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">test</div>"
  
@@ -86,7 +92,9 @@ InstanceOf: ExampleComposition6
 * section[Section2][=].text.status = #generated
 * section[Section2][=].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">test</div>"
  
-* section[Section3][+].code.coding.system = Canonical(ExampleCompositionSectionsCS)
-* section[Section3][=].code.coding.code = #Section3
+* section[Section3][+].code.coding[0].system = Canonical(ExampleCompositionSectionsCS)
+* section[Section3][=].code.coding[=].code = #Section3
+// * section[Section3][=].code.coding[+].system = "http://loinc.org"
+// * section[Section3][=].code.coding[=].code = #2951-2
 * section[Section3][=].text.status = #generated
 * section[Section3][=].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">test</div>"
