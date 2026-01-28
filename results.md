@@ -67,7 +67,32 @@ Falsch:
 * section[Section2].code.coding = ExampleCompositionSectionsCS#Section2
 ```
 
+## Auswirkungen unterschiedlicher discriminator paths:
 
+### Path = "code" (CodeableConcept Ebene)
+Führt zu:
+```
+//code -> required pattern
+//code.coding -> fixed value
+//code.coding.system-> fixed value
+//code.coding.code -> fixed value
+```
+### Path = "code.coding" (Coding Ebene)
+Führt zu:
+```
+//code -> nichts
+//code.coding -> required pattern
+//code.coding.system -> fixed value
+//code.coding.code -> fixed value
+```
+### Path = "code.coding.code" (Code+System Ebene)
+```
+Führt zu:
+//code -> nichts
+//code.coding -> nichts 
+//code.coding.system-> required pattern
+//code.coding.code -> required pattern
+```
 
 # Fixed Value vs. Required Pattern
 
@@ -94,4 +119,9 @@ Ist auf der CodeableConcept Ebene ein constraint (required pattern) dann wird di
 
 ### Fixed Value auf Coding Ebene
 Wenn auf coding ebene ein fixed value (fsh: exactly) ist dann dürfen darunter nur die angegebenen elmente mit den fixed values vorkommen und keine anderen -> z.b. wenn system, code und display fixed sind dann müssen diese vorhanden sein und den values entsprechen und z.b. eine version oder extension ist nicht erlaubt
+
+
+
+
+# Empfehlungen
 
