@@ -3,9 +3,11 @@
 ## Grundregeln:
 
 ### Discriminator Path + Slice Ebene
-- Slicing discriminator.path Ebene und die verwendete Ebene im fsh in den einzelenen Slices müssen übereinstimmen
+Slicing discriminator.path Ebene und die verwendete Ebene im fsh in den einzelenen Slices müssen übereinstimmen
+
 Beispiel:
 
+Richtig:
 ```
 * section.code from ExampleCompositionSectionsVS
 * section ^slicing.discriminator[+].type = #value
@@ -19,10 +21,7 @@ Beispiel:
 * section[Section3].code = ExampleCompositionSectionsCS#Section3
 ```
 
-Richtig:
-
 Falsch:
-
 ```
 * section.code from ExampleCompositionSectionsVS
 * section ^slicing.discriminator[+].type = #value
@@ -37,7 +36,7 @@ Falsch:
 ```
 
 ### Einheitliche Slice Ebene
-- Alle Slices müssen die selbe Ebene verwenden
+Alle Slices müssen die selbe Ebene verwenden
 
 Beispiel:
 
