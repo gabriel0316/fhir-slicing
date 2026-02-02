@@ -283,22 +283,22 @@ Nur die Angabe von `exactly` im FSH führt in der StructureDefinition zu einem F
 <table class="my-table">
   <tr>
     <th></th>
-    <th>OHNE <code>exactly></th>
-    <th>MIT <code>exactly></th>
+    <th>OHNE <code>exactly</code></th>
+    <th>MIT <code>exactly</code></th>
   </tr>
   <tr>
     <td><strong>CodeableConcept-Ebene</strong></td>
-    <td>Ist auf der CodeableConcept Ebene ein Pattern gesetzt, dann werden weitere Codings erlaubt.</td>
-    <td>Ist auf der CodeableConcept Ebene ein Fixed Value gesetzt, dann werden keine weiteren Codings erlaubt. Darüberhinaus ist das Befüllen anderer Elemente als die Slice definierten verboten.</td>
+    <td>Ist auf der CodeableConcept-Ebene ein Pattern gesetzt, dann werden weitere Codings erlaubt.</td>
+    <td>Ist auf der CodeableConcept-Ebene ein Fixed Value gesetzt, dann werden keine weiteren Codings erlaubt. Darüber hinaus ist das Befüllen anderer Elemente als die Slice definierten verboten.</td>
   </tr>
   <tr>
     <td><strong>Coding-Ebene</strong></td>
     <td>Wenn auf Coding-Ebene ein Pattern gesetzt wird, können zusätzlich zum vorgegebenen Code auch displays, extensions etc. verwendet werden.</td>
-    <td>Wenn auf coding ebene ein Fixed Value gesetzt wird, dann dürfen darunter nur die angegebenen Elmente mit den Fixed Values vorkommen und keine anderen Elemente, z.B. wenn system, code und display fixiert sind, dann müssen diese vorhanden sein und den vorgegebenen Werten entsprechen und z.B. eine version oder extension ist nicht erlaubt.</td>
+    <td>Wenn auf Coding-Ebene ein Fixed Value gesetzt wird, dann dürfen darunter nur die angegebenen Elmente mit den Fixed Values vorkommen und keine anderen Elemente, z.B. wenn system, code und display fixiert sind, dann müssen diese vorhanden sein und den vorgegebenen Werten entsprechen und z.B. eine version oder extension ist nicht erlaubt.</td>
   </tr>
   <tr>
     <td><strong>Code-Ebene</strong></td>
-    <td colspan="2">Pattern und Fixed Value bedeuten für primitive Datentypen (system -> uri, code -> code) das gleiche - dh. eine exakte Übereinstimmung ist erforderlich.</td>
+    <td colspan="2">Pattern und Fixed Value bedeuten für primitive Datentypen (system -> uri, code -> code) das gleiche - d.h. eine exakte Übereinstimmung ist erforderlich.</td>
   </tr>
 </table>
 
