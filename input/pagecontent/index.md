@@ -5,10 +5,10 @@ The following applies to elements other than `code` (in this case we focused on 
 ### tl;dr - IF YOU DO NOT WANT TO READ THE WHOLE PAGE
 
 **`exactly` grundsätzlich nicht verwenden!** `exactly` führt zu beträchtlichen Einschränkungen (siehe unten TODO: Link einfügen)
-</br>
+
 Wenn im Slice **zumindest 1 Coding** mit den angegeben Werten vorkommen soll:
 - `discriminator.path = "code"` (=CodeableConcept-Ebene)
-</br>
+
 Wenn im Slice **genau 1 Coding** mit den angegeben Werten vorkommen soll und kein anderes Coding:
 - `discriminator.path = "code.coding"` oder `discriminator.path = "code.coding.code"` (=Coding- oder Code-Ebene)
 - Zwischen den beiden gibt es keinen Unterschied, wenn `exactly` nicht verwendet wird.
