@@ -5,6 +5,8 @@ Description: "Composition Sections"
 * ^experimental = true
 * ^caseSensitive = true
 * #Section1 "Section 1"
+* #Section1 ^designation[0].language = #en-US
+* #Section1 ^designation[0].value = "Test"
 * #Section2 "Section 2"
 * #Section3 "Section 3"
  
